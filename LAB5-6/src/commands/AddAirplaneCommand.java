@@ -1,5 +1,4 @@
 package commands;
-
 import manager.Command;
 import airline.Airline;
 import airline.Airplane;

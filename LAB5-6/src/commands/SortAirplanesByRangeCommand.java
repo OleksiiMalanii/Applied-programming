@@ -1,13 +1,10 @@
 package commands;
-
 import manager.Command;
 import airline.Airline;
 import java.util.Comparator;
 
 public class SortAirplanesByRangeCommand implements Command {
     private Airline airline;
-
-    // Конструктор, який приймає Airline
     public SortAirplanesByRangeCommand(Airline airline) {
         this.airline = airline;
     }

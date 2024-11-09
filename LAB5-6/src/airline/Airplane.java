@@ -18,7 +18,6 @@ public class Airplane {
     public double getFuelConsumption() {
         return fuelConsumption;
     }
-
     public double getRange() {
         return range;
     }
@@ -28,11 +27,9 @@ public class Airplane {
         return String.format("Літак: %s, Дальність: %.2f, Місткість: %d, Вантажопідйомність: %.2f, Споживання пального: %.2f",
                 name, range, capacity, payload, fuelConsumption);
     }
-
     public int getCapacity() {
         return 0;
     }
-
     public double getPayload() {
         return 0;
     }

@@ -1,12 +1,10 @@
 package commands;
-
 import manager.Command;
 import airline.Airline;
 import airline.Airplane;
 
 public class CalculateCapacityAndPayloadCommand implements Command {
     private Airline airline;
-
     public CalculateCapacityAndPayloadCommand(Airline airline) {
         this.airline = airline;
     }

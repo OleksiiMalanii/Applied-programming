@@ -1,5 +1,4 @@
 package commands;
-
 import manager.Command;
 
 public class ExitCommand implements Command {
