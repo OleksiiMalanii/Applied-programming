@@ -21,7 +21,7 @@ public class Airplane {
     public double getRange() {
         return range;
     }
-
+    
     @Override
     public String toString() {
         return String.format("Літак: %s, Дальність: %.2f, Місткість: %d, Вантажопідйомність: %.2f, Споживання пального: %.2f",
