@@ -28,9 +28,9 @@ public class Airplane {
                 name, range, capacity, payload, fuelConsumption);
     }
     public int getCapacity() {
-        return 0;
+        return capacity;
     }
     public double getPayload() {
-        return 0;
+        return payload;
     }
 }

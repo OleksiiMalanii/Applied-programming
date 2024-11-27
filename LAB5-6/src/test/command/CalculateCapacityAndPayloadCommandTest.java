@@ -22,7 +22,9 @@ public class CalculateCapacityAndPayloadCommandTest {
 
         new CalculateCapacityAndPayloadCommand(airline).execute();
 
-        assertTrue(output.toString().contains("300 пасажирів"));
-        assertTrue(output.toString().contains("150.00 тонн"));
+        assertTrue(output.toString().contains("300 passengers"));
+        assertTrue(output.toString().contains("150.00 tons"));
+
+
     }
 }

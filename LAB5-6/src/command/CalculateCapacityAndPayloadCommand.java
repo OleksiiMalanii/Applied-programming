@@ -18,6 +18,6 @@ public class CalculateCapacityAndPayloadCommand implements Command {
             totalPayload += airplane.getPayload();
         }
 
-        System.out.printf("Загальна місткість: %d пасажирів, Загальна вантажопідйомність: %.2f тонн%n", totalCapacity, totalPayload);
+        System.out.printf("Total capacity: %d passengers, Total payload: %.2f tons%n", totalCapacity, totalPayload);
     }
 }
